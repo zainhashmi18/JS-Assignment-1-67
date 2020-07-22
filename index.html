@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Javascript 1-67</title>
+     <!-- Task No 6 & 7 -->
+     <script>
+        alert("Hello Future Stars(Head)")
+    </script>
+</head>
+<!-- Task No 6 & 7 -->
+<script>
+    alert("Hello Future Stars(Before Body)")
+</script>
+<body>
+    <!-- Task No 6 & 7 -->
+    <script>
+        alert("Hello Future Star(Inside Body)")
+    </script>
+
+
+
+
+    <!-- Chapter 6-9 -->
+
+
+<!-- Task No 6 -->
+<table >
+        <th>Subject</th>
+        <th>Total Marks</th>
+        <th>Obtained Marks</th>
+        <th>Percentage</th>
+        <tr align="center">
+            <td>Maths</td>
+            <td><script>document.write(subtotal)</script></td>
+            <td><script>document.write(math)</script></td>
+            <td><script>document.write(math/subtotal*100+"%")</script></td>
+        </tr>
+    <tr align="center">
+        <td>English</td>
+        <td><script>document.write(subtotal)</script></td>
+        <td><script>document.write(eng)</script></td>
+        <td><script>document.write(eng/subtotal*100+"%")</script></td>
+    </tr>
+    <tr align="center">
+        <td>Javascript</td>
+        <td><script>document.write(subtotal)</script></td>
+        <td><script>document.write(js)</script></td>
+        <td><script>document.write(js/subtotal*100+"%")</script></td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td><b><script>document.write(subtotal*3)</script></td>
+        <td><b><script>document.write(eng+math+js)</script></td>
+        <td><b><script>document.write(((eng+math+js)/(subtotal*3)*100)+"%")</script></td>
+    </tr>
+</table>
+
+
+
+    <!-- Chapter 43-48 -->
+
+    <!-- Task No 1 -->
+    <a href="" onclick="hello()">Hello Saylani</a>
+
+    <!-- Task No 2 -->
+    <img src="images/1.jpg" onclick="pop()" alt="">
+     <img src="images/2.jpg" onclick="pop()"  alt="" height="225">
+     <img src="images/3.jpg" onclick="pop()"  alt="" height="225">
+
+    <!-- Task No 3 -->
+    <table id="t1">
+         <tr>
+             <th>Index</th>
+             <th>Name</th>
+             <th>Class</th>
+         </tr>
+         <tr>
+             <td>0</td>
+             <td>ahmed</td>
+             <td>9</td>
+             <td><button onclick="delrow(1)">Delete</button></td>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>ali</td>
+            <td>5</td>
+            <td><button onclick="delrow(2)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>zain</td>
+            <td>10</td>
+            <td><button onclick="delrow(3)">Delete</button></td>
+        </tr>
+     </table>
+
+    <!-- Task No 4 -->
+    <img src="images/1.jpg" onmouseover="hover(this)" onmouseout="hoverout(this)" alt="">
+
+    <!-- Task No 5 -->
+    <h1 id="counter">0</h1>
+      <button  onclick="count1()">Increase</button>
+      <button  onclick="count2()">Decrease</button>
+
+
+    <!-- Chapter 48-52 -->
+    <!-- Task No 1 -->
+    <p> <label></label>Your Name: </label>
+        <span id="display"></span></p>
+    <p><label>Your Email: </label>
+        <span id="display1"></span></p>
+    <p> <label>Your Phone: </label>
+        <span id="display2"></span></p>
+    <p><label>Your School: </label>
+        <span id="display3"></span>
+    <form action="">
+        <p><label><b>Name</b></label>
+            <input type="text" name="Name" id="user_input"></p>
+        <p><label><b>Email</b></label>
+            <input type="email" name="Email" id="user_input1"></p>
+        <p><label><b>Phone</b></label>
+            <input type="number" name="Phone" id="user_input2"></p>
+        <label><b>School</b></label>
+        <input type="text" name="School" id="user_input3">
+
+    </form>
+    <p><input type="submit" onclick="showData();"><br /></p>
+
+    <!-- Task No 2 -->
+    <p id="pera">
+         Price: 30rs <br>
+         Quality: High <br>
+     </p>
+     <a href="#" onclick="readMore()">Read More</a>
+
+    <!-- Task No 3 -->
+    <table id="t1">
+         <tr>
+             <th>Index</th>
+             <th>Name</th>
+             <th>Class</th>
+         </tr>
+         <tr>
+             <td>0</td>
+             <td>ahmed</td>
+             <td>9</td>
+             <td><button onclick="delrow(1)">Delete</button></td>
+             <td><button onclick="edit()">edit</button></td>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>ali</td>
+            <td>5</td>
+            <td><button onclick="delrow(2)">Delete</button></td>
+            <td><button onclick="edit()">edit</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>zain</td>
+            <td>10</td>
+            <td><button onclick="delrow(3)">Delete</button></td>
+            <td><button onclick="edit()">edit</button></td>
+        </tr>
+     </table>
+     <p><form action="" id="frm">
+       <p> <label for="">Student Name:</label>
+        <input type="text" name="name" id=""></p>
+       <p> <label for="">Student Class:</label>
+        <input type="text" name="Class" id=""></p>
+    </form></p>
+
+
+
+    <!-- Chapter 53-58 -->
+    <!-- Task No 1 and 2-->
+    <div class="imgdiv">
+        <img src="images/4.jpg" onclick="clickEvent1(this)" height="250px" width="250px" alt="">
+        <img src="images/5.jpg" onclick="clickEvent1(this)" height="250px" width="250px" alt="">
+        <img src="images/6.jpg" onclick="clickEvent1(this)" height="250px" width="250px" alt="">
+        <img src="images/7.jpg" onclick="clickEvent1(this)" height="250px" width="250px" alt="">
+    </div>
+    <div id="id1" class="modalclass">
+        <div class="content">
+          <div class="">
+            <span onclick="clickEvent2()" class="classcross"><i class="fas fa-times-circle"></i></span>
+            <img src="" id="showimage" height="400px" width="90%" alt="">
+          </div>
+          <div class="btnclass">
+              <p id=paraid>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum fugiat optio officia, ipsa illo eaque qui suscipit corporis. Accusamus fugit beatae nemo eius explicabo, aut illo. Enim, quo harum. Earum.</p>
+          <button onclick="clickEvent3()"><i class="fas fa-plus fa-2x"></i></button>
+          <button onclick="clickEvent4()"><i class="fas fa-minus fa-2x"></i></button>
+        </div>
+        </div>
+      </div>
+
+
+      
+    <!-- Chapter 58-67 -->
+    <!-- Task No 1 -->
+    <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content"><label for="first-name">First Name</label><input type="text" id="first-name" /><label for="last-name">Last Name </label><input type="text" id="last-name" /><label for="email"> Email </label><input type="text" id="email" /></div>
+        <div id="main-content"class="content"><p class="render">First Name : Alex</p><p class="render" id="lastName">Last Name: Bank</p><p class="render">Email : alexbank@example.com</p><p class="render">Country : Pakistan </p><p class="render">contact : +92 300 1234567</p></div><p  class="last"></p><p  class="last"></p><p  class="last"></p><p  class="last"></p><p  class="last"></p>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+<!-- Task No 6 & 7 -->
+<script>
+    alert("Hello Future Stars(After Body)")
+</script>
+
+</html>
